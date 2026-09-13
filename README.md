@@ -12,7 +12,7 @@ Includes: failure-taxonomy 1-pager (`tax-v1`), rubric one-sheet, 3 synthetic exa
 
 ## Buy the full pack ($39)
 
-Email BUY to [drozkan2+para@gmail.com](mailto:drozkan2+para@gmail.com?subject=BUY%20Clinical%20AI%20Eval%20Starter%20Pack%20%2439). Paid checkout link and TR transfer details are sent after that email — they are not shown on the landing page yet.
+Email BUY to [drozkan2+para@gmail.com](mailto:drozkan2+para@gmail.com?subject=BUY%20Clinical%20AI%20Eval%20Starter%20Pack%20%2439). TR havale/EFT details (Ziraat IBAN) are on the landing page. No live card checkout.
 
 Full pack: 7-class taxonomy, six-dimension rubric, review worksheet + JSON schema, worked example, QA checklist, buyer license.
 
