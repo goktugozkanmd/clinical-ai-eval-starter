@@ -14,6 +14,9 @@
     a.btn{display:inline-block;background:#111;color:#fff;padding:.7rem 1.1rem;border-radius:8px;text-decoration:none;margin-right:.5rem;margin-top:.5rem}
     a.btn.secondary{background:#fff;color:#111;border:1px solid #111}
     ul{padding-left:1.2rem}
+    .primary-pay{background:#f8fafc;border:1px solid #cbd5e1;border-radius:8px;padding:1rem 1.1rem;margin:1rem 0}
+    .tr-only{margin-top:1.75rem;padding-top:1.25rem;border-top:1px dashed #ccc;color:#444;font-size:.95rem}
+    .tr-only h3{margin-top:0;font-size:1.05rem;font-weight:600;color:#555}
   </style>
 </head>
 <body>
@@ -30,16 +33,24 @@
     <h2>Buy full pack — $39</h2>
     <p><a class="btn" href="mailto:drozkan2+para@gmail.com?subject=BUY%20Clinical%20AI%20Eval%20Starter%20Pack%20%2439&body=I%20want%20to%20buy%20the%20Clinical%20AI%20Output%20Evaluation%20Starter%20Pack%20(%2439).%20Reply%3A%20BUY.%0A%0AName%3A%0ACompany%3A%0A">Buy — reply email (BUY)</a></p>
 
-    <h3>TR bank transfer (havale/EFT)</h3>
-    <ul>
-      <li>Amount: <strong>$39 USD</strong> equivalent in TRY (ask for a fixed TRY quote in your BUY email if needed)</li>
-      <li>Account holder: <strong>GÖKTUĞ ÖZKAN</strong></li>
-      <li>Bank: Ziraat Bankası — Emet/Kütahya</li>
-      <li>IBAN: <span class="iban">TR80 0001 0002 8255 4694 5050 05</span></li>
-      <li>Reference: <code>BUY Clinical AI Starter</code> + your email</li>
-      <li>Email your dekont to <a href="mailto:drozkan2+para@gmail.com">drozkan2+para@gmail.com</a></li>
-    </ul>
-    <p style="font-size:0.9em;opacity:0.85">No live card checkout on this page. Gumroad paid checkout not available for TR bank payout. Shopier parked. ZIP fulfilled after payment clears. Educational/ops only.</p>
+    <div class="primary-pay" id="international">
+      <h3>International: card / Wise / Payoneer link — reply to BUY email for checkout link</h3>
+      <p>Foreign buyers pay by card, Wise, or Payoneer. Send the BUY email above; we reply with a checkout link. There is no checkout URL on this page. Do not send an international wire to a Turkish retail IBAN.</p>
+    </div>
+
+    <aside class="tr-only" id="turkey-only">
+      <h3>Turkey only (TRY havale/EFT)</h3>
+      <p>For buyers in Turkey paying in TRY. This is not the payment path for international buyers.</p>
+      <ul>
+        <li>Amount: <strong>$39 USD</strong> equivalent in TRY (ask for a fixed TRY quote in your BUY email if needed)</li>
+        <li>Account holder: <strong>GÖKTUĞ ÖZKAN</strong></li>
+        <li>Bank: Ziraat Bankası — Emet/Kütahya</li>
+        <li>IBAN: <span class="iban">TR80 0001 0002 8255 4694 5050 05</span></li>
+        <li>Reference: <code>BUY Clinical AI Starter</code> + your email</li>
+        <li>Email your dekont to <a href="mailto:drozkan2+para@gmail.com">drozkan2+para@gmail.com</a></li>
+      </ul>
+    </aside>
+    <p style="font-size:0.9em;opacity:0.85">ZIP fulfilled after payment clears. Educational/ops only.</p>
   </section>
 </body>
 </html>
