@@ -33,3 +33,7 @@ drozkan2+para@gmail.com — questions or BUY.
 ## Disclaimer
 
 Educational and operational use only. No claim of clinical safety or efficacy.
+
+## Companion Tool — ManuGate MD
+
+Need pre-submission DOI/PMID verification, 95% CI consistency checks, or a 24h Physician Audit ($149)? Try [ManuGate MD](https://goktugozkanmd-manugate-md.static.hf.space) ([MIT GitHub CLI](https://github.com/goktugozkanmd/manugate-md)).
