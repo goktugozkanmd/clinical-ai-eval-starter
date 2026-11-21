@@ -4,58 +4,87 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Clinical AI Output Evaluation Starter Pack</title>
+  <meta name="description" content="Educational and operational eval kit for scoring clinical-adjacent LLM and agent outputs: failure taxonomy, rubric, review worksheet, synthetic worked example, and QA checklist." />
+  <link rel="canonical" href="https://goktugozkanmd.github.io/clinical-ai-eval-starter/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Clinical AI Output Evaluation Starter Pack" />
+  <meta property="og:description" content="Failure taxonomy, rubric, review worksheet, synthetic worked example, and QA checklist for scoring clinical-adjacent AI outputs." />
+  <meta property="og:url" content="https://goktugozkanmd.github.io/clinical-ai-eval-starter/" />
   <style>
+    *,*::before,*::after{box-sizing:border-box}
     body{font-family:system-ui,-apple-system,sans-serif;max-width:720px;margin:2rem auto;padding:0 1rem;line-height:1.5;color:#111}
+    .skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden}
+    .skip-link:focus{position:static;display:inline-block;width:auto;height:auto;margin-bottom:1rem;padding:.5rem .8rem;background:#111;color:#fff;border-radius:6px;text-decoration:none}
+    a:focus-visible{outline:3px solid #2563eb;outline-offset:2px;border-radius:4px}
     .tag{display:inline-block;background:#eef2ff;color:#3730a3;padding:.2rem .55rem;border-radius:999px;font-size:.85rem}
     .price{font-size:1.4rem;font-weight:700;margin:.8rem 0}
     .warn{background:#fff7ed;border:1px solid #fdba74;padding:.8rem 1rem;border-radius:8px;margin:1.2rem 0}
     .pay{margin:2rem 0;padding:1.25rem;border:1px solid #ddd;border-radius:8px}
-    .iban{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:1.05rem;letter-spacing:.02em}
-    a.btn{display:inline-block;background:#111;color:#fff;padding:.7rem 1.1rem;border-radius:8px;text-decoration:none;margin-right:.5rem;margin-top:.5rem}
+    .iban{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:1.05rem;letter-spacing:.02em;overflow-wrap:anywhere}
+    code{overflow-wrap:anywhere}
+    .btn-group{display:flex;flex-wrap:wrap;gap:.5rem;margin:.8rem 0}
+    a.btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;background:#111;color:#fff;padding:.65rem 1.1rem;border-radius:8px;text-decoration:none}
+    a.btn:hover{background:#27272a}
     a.btn.secondary{background:#fff;color:#111;border:1px solid #111}
+    a.btn.secondary:hover{background:#f4f4f5}
     ul{padding-left:1.2rem}
+    li{margin-bottom:.3rem;overflow-wrap:anywhere}
     .primary-pay{background:#f8fafc;border:1px solid #cbd5e1;border-radius:8px;padding:1rem 1.1rem;margin:1rem 0}
     .tr-only{margin-top:1.75rem;padding-top:1.25rem;border-top:1px dashed #ccc;color:#444;font-size:.95rem}
     .tr-only h3{margin-top:0;font-size:1.05rem;font-weight:600;color:#555}
+    @media (max-width:480px){body{margin:1.25rem auto}.pay{padding:1rem}a.btn{width:100%}}
   </style>
 </head>
 <body>
-  <p class="tag">Educational / operations kit · Not medical advice · Not CDS</p>
-  <h1>Clinical AI Output Evaluation Starter Pack</h1>
-  <p class="price">$39 · digital download</p>
-  <p>Failure taxonomy, rubric, review worksheet, synthetic worked example, and QA checklist for scoring clinical-adjacent AI <em>outputs</em>.</p>
-  <div class="warn"><strong>Disclaimer:</strong> Educational and operational use only. Not medical advice, not for patients, not clinical decision support, and not a claim of clinical safety or efficacy.</div>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header>
+    <p class="tag">Educational / operations kit · Not medical advice · Not CDS</p>
+    <h1>Clinical AI Output Evaluation Starter Pack</h1>
+    <p class="price">$39 · digital download</p>
+    <p>Failure taxonomy, rubric, review worksheet, synthetic worked example, and QA checklist for scoring clinical-adjacent AI <em>outputs</em>.</p>
+    <div class="warn" role="note"><strong>Disclaimer:</strong> Educational and operational use only. Not medical advice, not for patients, not clinical decision support, and not a claim of clinical safety or efficacy.</div>
+  </header>
 
-  <section class="pay" id="cta">
-    <h2>Free sample</h2>
-    <p><a class="btn secondary" href="https://github.com/goktugozkanmd/clinical-ai-eval-starter/releases/download/free-starter-slice-v1/Free-Starter-Slice-v1.zip">Download free starter slice (ZIP)</a></p>
+  <main id="main-content">
+    <section class="pay" id="cta">
+      <h2>Free sample</h2>
+      <div class="btn-group">
+        <a class="btn secondary" href="https://github.com/goktugozkanmd/clinical-ai-eval-starter/releases/download/free-starter-slice-v1/Free-Starter-Slice-v1.zip">Download free starter slice (ZIP)</a>
+      </div>
 
-    <h2>Buy full pack — $39</h2>
-    <p><a class="btn" href="mailto:drozkan2+para@gmail.com?subject=BUY%20Clinical%20AI%20Eval%20Starter%20Pack%20%2439&body=I%20want%20to%20buy%20the%20Clinical%20AI%20Output%20Evaluation%20Starter%20Pack%20(%2439).%20Reply%3A%20BUY.%0A%0AName%3A%0ACompany%3A%0A">Buy — reply email (BUY)</a></p>
+      <h2>Buy full pack — $39</h2>
+      <div class="btn-group">
+        <a class="btn" href="mailto:drozkan2+para@gmail.com?subject=BUY%20Clinical%20AI%20Eval%20Starter%20Pack%20%2439&amp;body=I%20want%20to%20buy%20the%20Clinical%20AI%20Output%20Evaluation%20Starter%20Pack%20(%2439).%20Reply%3A%20BUY.%0A%0AName%3A%0ACompany%3A%0A">Buy — reply email (BUY)</a>
+      </div>
 
-    <div class="primary-pay" id="international">
-      <h3>International: card / Wise / Payoneer link — reply to BUY email for checkout link</h3>
-      <p>Foreign buyers pay by card, Wise, or Payoneer. Send the BUY email above; we reply with a checkout link. There is no checkout URL on this page. Do not send an international wire to a Turkish retail IBAN.</p>
-    </div>
+      <div class="primary-pay" id="international">
+        <h3>International: card / Wise / Payoneer link — reply to BUY email for checkout link</h3>
+        <p>Foreign buyers pay by card, Wise, or Payoneer. Send the BUY email above; we reply with a checkout link. There is no checkout URL on this page. Do not send an international wire to a Turkish retail IBAN.</p>
+      </div>
 
-    <aside class="tr-only" id="turkey-only">
-      <h3>Turkey only (TRY havale/EFT)</h3>
-      <p>For buyers in Turkey paying in TRY. This is not the payment path for international buyers.</p>
-      <ul>
-        <li>Amount: <strong>$39 USD</strong> equivalent in TRY (ask for a fixed TRY quote in your BUY email if needed)</li>
-        <li>Account holder: <strong>GÖKTUĞ ÖZKAN</strong></li>
-        <li>Bank: Ziraat Bankası — Emet/Kütahya</li>
-        <li>IBAN: <span class="iban">TR80 0001 0002 8255 4694 5050 05</span></li>
-        <li>Reference: <code>BUY Clinical AI Starter</code> + your email</li>
-        <li>Email your dekont to <a href="mailto:drozkan2+para@gmail.com">drozkan2+para@gmail.com</a></li>
-      </ul>
-    </aside>
-    <p style="font-size:0.9em;opacity:0.85">ZIP fulfilled after payment clears. Educational/ops only.</p>
-  </section>
-  <section class="pay" id="companion-tool">
-    <h2>Companion Tool — ManuGate MD</h2>
-    <p>Preparing a clinical AI or biostatistics manuscript? Run a zero-upload pre-submission audit (live PubMed/Crossref DOI check, 95% CI math check, and double-blind scrubber) or book a 24h MD statistical audit ($149):</p>
-    <p><a class="btn secondary" href="https://goktugozkanmd-manugate-md.static.hf.space" target="_blank" rel="noopener">Open ManuGate MD &rarr;</a> <a class="btn secondary" href="https://github.com/goktugozkanmd/manugate-md" target="_blank" rel="noopener">GitHub MIT CLI</a></p>
-  </section>
+      <aside class="tr-only" id="turkey-only">
+        <h3>Turkey only (TRY havale/EFT)</h3>
+        <p>For buyers in Turkey paying in TRY. This is not the payment path for international buyers.</p>
+        <ul>
+          <li>Amount: <strong>$39 USD</strong> equivalent in TRY (ask for a fixed TRY quote in your BUY email if needed)</li>
+          <li>Account holder: <strong>GÖKTUĞ ÖZKAN</strong></li>
+          <li>Bank: Ziraat Bankası — Emet/Kütahya</li>
+          <li>IBAN: <span class="iban">TR80 0001 0002 8255 4694 5050 05</span></li>
+          <li>Reference: <code>BUY Clinical AI Starter</code> + your email</li>
+          <li>Email your dekont to <a href="mailto:drozkan2+para@gmail.com">drozkan2+para@gmail.com</a></li>
+        </ul>
+      </aside>
+      <p style="font-size:0.9em;opacity:0.85">ZIP fulfilled after payment clears. Educational/ops only.</p>
+    </section>
+
+    <section class="pay" id="companion-tool">
+      <h2>Companion Tool — ManuGate MD</h2>
+      <p>Preparing a clinical AI or biostatistics manuscript? Run a zero-upload pre-submission audit (live PubMed/Crossref DOI check, 95% CI math check, and double-blind scrubber) or book a 24h MD statistical audit ($149):</p>
+      <div class="btn-group">
+        <a class="btn secondary" href="https://goktugozkanmd-manugate-md.static.hf.space" target="_blank" rel="noopener noreferrer">Open ManuGate MD &rarr;</a>
+        <a class="btn secondary" href="https://github.com/goktugozkanmd/manugate-md" target="_blank" rel="noopener noreferrer">GitHub MIT CLI</a>
+      </div>
+    </section>
+  </main>
 </body>
 </html>

@@ -37,3 +37,12 @@ Educational and operational use only. No claim of clinical safety or efficacy.
 ## Companion Tool — ManuGate MD
 
 Need pre-submission DOI/PMID verification, 95% CI consistency checks, or a 24h Physician Audit ($149)? Try [ManuGate MD](https://goktugozkanmd-manugate-md.static.hf.space) ([MIT GitHub CLI](https://github.com/goktugozkanmd/manugate-md)).
+
+## Local preview & verification
+
+Serve the static landing page locally and run the offline HTML/link-consistency tests (Python 3 standard library only):
+
+```bash
+python -m http.server 8000
+python -m unittest discover -s tests -v
+```
